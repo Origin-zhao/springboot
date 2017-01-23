@@ -21,6 +21,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
+    @RequestMapping("/")
+    public String index0(){
+        return "我是spring boot的测试首页";
+    }
+
+
     @RequestMapping("/index.html")
     public String index1(){
         return "测demo成功了";

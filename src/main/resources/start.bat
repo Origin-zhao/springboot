@@ -1,0 +1,1 @@
+Java -jar springboot1-0.0.1-SNAPSHOT.jar --name="Spring" --server.port=9090
