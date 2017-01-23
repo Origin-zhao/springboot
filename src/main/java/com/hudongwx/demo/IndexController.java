@@ -21,17 +21,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index1")
     public String index0(){
         return "我是spring boot的测试首页 V3.1";
     }
 
-    @RequestMapping("/index.html")
+    @RequestMapping("/index2")
     public String index1(){
         return "测demo成功了";
     }
 
-    @RequestMapping("/index.jsp")
+    @RequestMapping("/index3")
     public String index2(){
         return "测demo成功了";
     }
