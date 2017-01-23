@@ -23,7 +23,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index0(){
-        return "我是spring boot的测试首页";
+        return "我是spring boot的测试首页 V1.2";
     }
 
 
