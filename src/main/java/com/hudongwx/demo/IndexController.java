@@ -28,7 +28,7 @@ public class IndexController {
 
     @RequestMapping("/index1")
     public String index1(){
-        return "我是spring boot的测试首页 V3.1";
+        return "我是spring boot的测试首页 V4.0";
     }
 
     @RequestMapping("/index2")
