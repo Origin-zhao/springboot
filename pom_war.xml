@@ -64,6 +64,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ROOT.war</finalName>
 		<!--编译mapper的xml文件-->
 		<resources>
 			<resource>
