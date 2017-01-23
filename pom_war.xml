@@ -24,8 +24,6 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -64,9 +62,7 @@
 	</dependencies>
 
 	<build>
-
-		<finalName>ROOT.war</finalName>
-
+		<finalName>ROOT</finalName>
 		<!--编译mapper的xml文件-->
 		<resources>
 			<resource>
